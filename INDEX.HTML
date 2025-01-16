@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Website Design</title>
+    <link rel="stylesheet" href="STYLE.CSS">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Custom Website Design</div>
+            <ul class="nav-links">
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Get Your Custom Website Designed</h1>
+            <p>Let me help you create the perfect website for your business.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="section-container">
+            <h2>About My Service</h2>
+            <p>I specialize in creating beautiful, responsive websites tailored to your business needs. Whether it's a personal project, a business website, or an e-commerce platform, I can help bring your vision to life.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="section-container">
+            <h2>Contact Me</h2>
+            <p>If you're ready to get started or just want to discuss your project, reach out to me! I'm available by phone or through the form below.</p>
+
+            <!-- Phone Number -->
+            <div class="phone-number">
+                <p>Call me directly at: <a href="tel:+212658452810">+2126 58 45 28 10</a></p>
+            </div>
+
+            <!-- Contact Form -->
+            <form id="contact-form" action="submit_form.php" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Describe your website needs" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Custom Website Design. All rights reserved.</p>
+    </footer>
+
+    <script src="SCRIPT.JS"></script>
+</body>
+
+</html>
